@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  color: #f8f9fa;
+}
+
+body {
+  background-color: #001233;
+}
+
+#form {
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #002855;
+  padding: 40px 20px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#form .avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px dashed #0353A4;
+  background-color: #0466C8;
+  margin: auto;
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+#form .avatar input#user_avatar {
+  cursor: pointer;
+  all: unset;
+  opacity: 0;
+  inset: 0;
+  position: absolute;
+}
+#form .avatar img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 100%;
+}
+#form .form_group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+#form .form_group input {
+  min-width: 280px;
+  background-color: #023E7D;
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 0 10px 10px 0;
+  padding-left: 10px;
+}
+
+button {
+  background-color: #023E7D;
+  border-radius: 10px;
+  min-width: 100px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
